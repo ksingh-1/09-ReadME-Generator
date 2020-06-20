@@ -34,6 +34,25 @@ const questions=[
         message:"What Is Your Username?",
         answer:"username"
     },
-    
+];
 
-]
+function askUser() {
+    return inquirer.prompt(questions)
+};
+
+async function init(){
+    console.log("ReadMe Generator 'On'");
+}
+
+    try {
+        const answers=await askUser();
+        let github=await axios.get('https://api.github.com/users/${answers.username}')
+        const md=generateMarkdown(answers, github.data);
+        await writeFileAsync("ReadME.md", md);
+        console.log("ReadME file generated");
+    } catch (err) {
+        console.log(err);
+    }
+};
+
+init();
