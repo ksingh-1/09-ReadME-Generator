@@ -1,5 +1,5 @@
 function generateMarkdown(answers, data) {
-    return
+    return '
 }
 
 <h2 align="center">${answers.title}</h2>
@@ -15,30 +15,41 @@ function generateMarkdown(answers, data) {
 </p>
 
 ## Description
-${answers.description}
+${answers.Description}
 
-## Contents<br>
-*[Installation](#Installation)**<br>
-*[Use](#Use)**<br>
-*[License](#License)**<br>
-*[Contributors](#Contributors)**<br>
-*[Tests](#Tests)**<br>
-*[Contact](#Contact)**<br>
+## Table of Contents
+* *[Title](#title)*
+* *[Descripton](#description)**
+* *[Usage](#usage)**
+* *[License](#license)**
+* *[Contributing](#contributors)**
+* *[Tests](#tests)**
+* *[Questions](#questions)**
+
 {/*  */}
-## *Installation*<br>
+
+## *Installation*
+To Install necessary dependencies, run the command:
+\'\'\'sh
 ${answers.install}
+\'\'\'
 
-## *Usage*<br>
+## *Usage*
+To use the ReadME Generator, run the command:
+\'\'\'sh
 ${answers.use}
+\'\'\'
 
-## *License* <br>
-${answers.license}
+## *License*
+This Project is Licenced with the ${answers.License} License.
 
-## *Contributors* <br>
+
+## *Contributors* 
+Contributed in part by:
 ${answers.contributors}
 
-## *Contact* <br>
-${answers.email}<br>
-
-
-module.exports=generateMarkdown
+## *Contact*
+${answers.email}
+';
+}
+module.exports=generateMarkdown;
