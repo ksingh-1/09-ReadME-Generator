@@ -18,8 +18,8 @@ const questions=[
     },
     {
         type: "questions",
-        message:"What Can This Project Be Used?",
-        answer:"use"
+        message:"What Can This Project Be Used For?",
+        answer:"usage"
     },
     {
         type: "questions",
