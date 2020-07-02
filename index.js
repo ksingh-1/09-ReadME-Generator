@@ -48,7 +48,28 @@ const questions=[
     },
 
 ];
+//
+// function writeToFile (fileName, data){
+//     fs.writeFile(fileName, data, function(err){
+//         if (err) throw err
+//     });
+// }
 
+// function init () {
+//     return inquirer.prompt(questions)
+//         .then(function (data){
+//             markdown(data);
+//             const userMarkdown=markdown(data);
+//             api.getUser(data.usernma);
+//             writeToFile('${data.title}.md', userMarkdown);
+//             console.log("Success!");
+//         })
+//         .catch(function (err){
+//             console.log(err);
+//         });
+// }
+// init();
+//
 function askUser() {
     return inquirer.prompt(questions)
 };
