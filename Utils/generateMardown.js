@@ -50,6 +50,9 @@ ${answers.contributors}
 
 ## *Contact*
 ${answers.email}
+
+## *Profile Pic*
+-![Image] (${profilePicture})
 ';
 }
 module.exports=generateMarkdown;
