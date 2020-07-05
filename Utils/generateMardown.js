@@ -1,10 +1,8 @@
 function generateMarkdown (data) {
-    var profilePicture="https://avatars3.githubusercontent.com/u/62266210?s=460&u=1c47aa17b802cffd7d2a7c07a8fc9209ac2c18c8&v=4";
-    return' 
-}
+    return `
 
 <h2 align="center">${data.title}</h2>
-
+var profilePicture="https://avatars3.githubusercontent.com/u/62266210?s=460&u=1c47aa17b802cffd7d2a7c07a8fc9209ac2c18c8&v=4";
 <p align="center" margin="50px">
     <a>
     <img src="https://img.shields.io/badge/Creator-KSingh-orange"/><a/>
@@ -31,17 +29,17 @@ ${data.Description}
 
 ## *Installation*
 To Install necessary dependencies, run the command:
-\'\'\'sh
-${data.install}
-\'\'\'
+\`\`\`sh
+${data.Install}
+\`\`\`
 
-## *Usage*
+## *Usage
 To use the ReadME Generator, run the command:
-\'\'\'sh
-${data.use}
-\'\'\'
+\`\`\`sh
+${data.Usage}
+\`\`\`
 
-## *License*
+## *License
 This Project is Licenced with the ${data.License} License.
 
 
@@ -54,6 +52,10 @@ ${data.email}
 
 ## *Profile Pic*
 -![Image] (${profilePicture})
-';
+
+## Questions
+
+`;
 }
 module.exports=generateMarkdown;
+
