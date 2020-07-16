@@ -58,4 +58,4 @@ kulpreet.s18@gmail.com
 If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1/ReadMe Generator)
 or reach me directly at <kulpreet.s18@gmail.com>.
 
-![ReadME_Smaller](https://user-images.githubusercontent.com/62266210/87704871-a3f9c900-c762-11ea-8b6a-c30be4e2e896.gif)
+![GifSMALLER](https://user-images.githubusercontent.com/62266210/87706286-e15f5600-c764-11ea-8057-507aecdddf9e.gif)
