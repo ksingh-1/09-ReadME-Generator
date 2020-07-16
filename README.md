@@ -1,5 +1,5 @@
 
-<h1 align="center">09-ReadME-Generator</h1>
+<h1 align="center">ReadMe Generator</h1>
 <p align="center" margin="50px">
     <a>
     <img src="https://img.shields.io/badge/Creator-KSingh-orange"/>
@@ -7,7 +7,7 @@
 </p>
 
 ## Title
-09-ReadME-Generator
+ReadMe Generator
 
 ## Description
 Command Line ReadMe Generator App
@@ -35,7 +35,7 @@ node index.js
 ```
 
 ## License
-This Project is Licenced with the MIT License.
+This Project is Licenced with the Apache 2.0 License.
 
 
 ## Contributors
@@ -55,8 +55,5 @@ kulpreet.s18@gmail.com
 ## *Questions*
 <img src="https://avatars1.githubusercontent.com/u/62266210?v=4" alt="avatar" style="border-radius: 15px" width="60"/>
 
-If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1/09-ReadME-Generator)
+If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1/ReadMe Generator)
 or reach me directly at <kulpreet.s18@gmail.com>.
-
-
-

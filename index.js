@@ -78,30 +78,7 @@ const questions=[
 //     });
 // }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
-=======
->>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
-// function init () {
-//     return inquirer.prompt(input)
-//         .then(function (data){
-//             markdown(data);
-//             const userMarkdown=markdown(data);
-//             api.getUser(data.Username);
-//             writeToFile(`${data.title}.md`, userMarkdown);
-//             console.log("Success!");
-//         })
-//         .catch(function (err){
-//             console.log(err);
-//         });
-// }
-// init();
-<<<<<<< HEAD
->>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
-=======
->>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 
 function promptUser() {
     return inquirer.prompt(questions);
@@ -121,15 +98,7 @@ async function init() {
     try {
         const data=await promptUser();
         const imgURL=await avatarQuery(data);
-<<<<<<< HEAD
-<<<<<<< HEAD
         
-=======
-        // let github=await axios.get(`https://api.github.com/users/${data.Username}`)
->>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
-=======
-        // let github=await axios.get(`https://api.github.com/users/${data.Username}`)
->>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
         const md=generateMarkdown(data, imgURL);
         await writeFileAsync("ReadME.md", md);
         console.log("ReadME file generated");
