@@ -1,6 +1,10 @@
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <h1 align="center">09-ReadME-Generator</h1>
+=======
+<h1 align="center">asdfa</h1>
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 =======
 <h1 align="center">asdfa</h1>
 >>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
@@ -12,15 +16,21 @@
 
 ## Title
 <<<<<<< HEAD
+<<<<<<< HEAD
 09-ReadME-Generator
 
 ## Description
 Command Line ReadMe Generator App
 =======
+=======
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 asdfa
 
 ## Description
 asdfas
+<<<<<<< HEAD
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
+=======
 >>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 
 ## Table of Contents
@@ -47,7 +57,11 @@ node index.js
 
 ## License
 <<<<<<< HEAD
+<<<<<<< HEAD
 This Project is Licenced with the MIT License.
+=======
+This Project is Licenced with the GPL 3.0 License.
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 =======
 This Project is Licenced with the GPL 3.0 License.
 >>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
@@ -71,11 +85,16 @@ kulpreet.s18@gmail.com
 <img src="https://avatars1.githubusercontent.com/u/62266210?v=4" alt="avatar" style="border-radius: 15px" width="60"/>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1/09-ReadME-Generator)
 or reach me directly at <kulpreet.s18@gmail.com>.
 
 
 !(09-ReadME-Generator/Compressed09.gif)
+=======
+If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1/asdfa)
+or reach me directly at <kulpreet.s18@gmail.com>.
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 =======
 If you have any questions about the repo contact me on GitHub at (https://github.com/ksingh-1/asdfa)
 or reach me directly at <kulpreet.s18@gmail.com>.

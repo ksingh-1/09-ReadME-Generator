@@ -79,8 +79,11 @@ const questions=[
 // }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
+=======
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 // function init () {
 //     return inquirer.prompt(input)
 //         .then(function (data){
@@ -95,6 +98,9 @@ const questions=[
 //         });
 // }
 // init();
+<<<<<<< HEAD
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
+=======
 >>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 
 function promptUser() {
@@ -116,7 +122,11 @@ async function init() {
         const data=await promptUser();
         const imgURL=await avatarQuery(data);
 <<<<<<< HEAD
+<<<<<<< HEAD
         
+=======
+        // let github=await axios.get(`https://api.github.com/users/${data.Username}`)
+>>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
 =======
         // let github=await axios.get(`https://api.github.com/users/${data.Username}`)
 >>>>>>> 39637168929b1b4df07029dad9b3204bdf0c7d23
